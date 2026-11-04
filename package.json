@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "safecouncil-platform",
   "version": "1.0.0",
   "private": true,
@@ -54,5 +54,12 @@
     "autoprefixer": "10.4.20",
     "eslint": "8.57.1",
     "eslint-config-next": "14.2.15"
+  },
+  "allowScripts": {
+    "@prisma/client@5.22.0": true,
+    "prisma@5.22.0": true,
+    "@prisma/engines@5.22.0": true,
+    "esbuild@0.23.1": true,
+    "esbuild@0.21.5": true
   }
 }
